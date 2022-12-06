@@ -21,7 +21,7 @@ int *split_nums(int number){
 
 int *guess(int nums)
 {
-  //setting your default no. or you can try randon 
+  //setting your default no. or you can try random 
 	int guess_nums = 1234;
 	int *guess_no = (int *)malloc(4 * sizeof(int));
 	int *input_num = (int *)malloc(4 * sizeof(int));
