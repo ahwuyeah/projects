@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include <stdlib.h>
+#include<stdlib.h>
 
 int *split_nums(int number){
 	int s1, s2, s3, s4;
@@ -33,7 +33,7 @@ int *guess(int nums)
 	{
 	    if(guess_no[i] == input_num[i])
 		{
-				A_count += 1;
+			A_count += 1;
 		}
 		else 
 		{
